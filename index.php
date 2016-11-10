@@ -1,14 +1,14 @@
 <?php $title = 'Home'; require('./partials/head.php'); ?>
 
+
 <form action="/result.php" method="GET">
-  Oggetto da riciclare
+  <p>Oggetto da riciclare</p>
   <input type="text" name="object">
-  <input type="submit" value="Submit">
+  <input type="submit" value="Cerca">
 </form>
 
-<p style="text-align: left;
-          padding-right: 50%;">
-	Recycle Helper è uno strumento che ti permette
-	di cercare un oggetto qualsisasi e come risposta riceverete la destinazione corretta dove gettare correttamente i vostri rifiuti.
+<p>
+	Riciclare è importante, ma non sempre facile.
+    Recycle Helper in Barletta ti aiuta: non sai dove mettere qualcosa? Inserisci l’oggetto in questa pagina, noi ti diremo dove!
 </p>
 <?php require('./partials/tail.php'); ?>

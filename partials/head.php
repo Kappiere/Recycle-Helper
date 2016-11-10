@@ -8,11 +8,5 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <script type="text/javascript" src="/assets/js/app.js" async></script>
 </head>
-<body style="background: url(assets/images/recycle.png);
-             background-repeat: no-repeat;
-             background-size: 50%;
-             background-clip: content-box;
-             background-attachment: fixed;
-             background-position: right;
-             text-align: center;
-             ">
+<body>
+  <h1>Recycle Helper</h1>

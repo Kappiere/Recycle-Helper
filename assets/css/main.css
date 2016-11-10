@@ -1,6 +1,21 @@
-body{
-   /* background: url(recycle.png);*/
-   background-color: lightblue;
+body {
 
-   
+             background: #6666ff  url(/assets/images/recycle.png);
+             background-repeat: no-repeat;
+             background-size: 50% 100%;
+             background-clip: content-box;
+             background-attachment: fixed;
+             background-position: right;
+}
+h1 {
+      color: white;
+      font-size: 72px;
+      background: -webkit-linear-gradient(#eee, #333);
+}
+p{
+    color: white;
+    font: 130% Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    text-align: left;
+    padding-right: 50%;
 }

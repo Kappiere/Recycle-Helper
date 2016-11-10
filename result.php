@@ -5,7 +5,7 @@
 </p>
 
 <form action="/email.php" method="POST">
-  Inserisci la tua email
+  <p>Inserisci la tua email</p>
   <input type="text" name="email">
   <input type="submit" value="Submit">
 </form>
