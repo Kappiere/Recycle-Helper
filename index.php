@@ -1,14 +1,33 @@
-<?php $title = 'Home'; require('./partials/head.php'); ?>
+<?php $title = 'DoveLoButto'; require('./partials/head.php'); ?>
 
+<div class="homepage">
+  <div class="navbar">
+    <?php require('./partials/header.php'); ?>
+  </div>
 
-<form action="/result.php" method="GET">
-  <p>Oggetto da riciclare</p>
-  <input type="text" name="object">
-  <input type="submit" value="Cerca">
-</form>
+  <div class="sidebar is-serif">
+    <article>
+      <p>
+        <strong>DoveLoButto</strong> ti permette di scoprire velocemente e 
+        facilmente come riciclare tutto ciò che ti passa per le mani.
+      </p>
+      <p>
+        La raccolta differenziata non è facile come sembra e questo servizio 
+        nasce apposta per facilitarla, fornendo alle persone uno strumento 
+        utile e facile da usare.
+      </p>
+    </article>
+  </div>
 
-<p>
-	Riciclare è importante, ma non sempre facile.
-    Recycle Helper in Barletta ti aiuta: non sai dove mettere qualcosa? Inserisci l’oggetto in questa pagina, noi ti diremo dove!
-</p>
+  <div class="action-box">
+    <article>
+      <p>Riciclare non è mai stato così facile..</p>
+    </article>
+    <form action="/result.php" method="get" class="search-bar">
+      <input type="text" name="object" placeholder="Ricicla ora">
+      <input type="image" src="/assets/images/action-icon.svg" alt="Ricicla">
+    </form>
+  </div>
+</div>
+
 <?php require('./partials/tail.php'); ?>
