@@ -840,3 +840,6 @@ body {
     background: #222;
     color: #fff;
 }
+.display-div{
+    display: none;
+}
