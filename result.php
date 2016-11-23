@@ -1,5 +1,9 @@
 <?php
 
-echo json_encode("ciao");
+$data = [
+   'oggetto' => $_GET['object']
+];
+
+echo json_encode($data);
 
 ?>

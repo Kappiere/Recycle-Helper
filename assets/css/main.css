@@ -683,6 +683,7 @@ body {
         display: none;
     }
 }
+
 .response-page {
     width: 100%;
     min-height: 100%;
@@ -695,6 +696,7 @@ body {
     -webkit-justify-content: center;
     -moz-justify-content: center;
     justify-content: center;
+    height: 100vh;
 }
 .response-page #response {
     width: 100%;
@@ -705,7 +707,7 @@ body {
     margin: 0 auto;
 }
 .response-page #response figure img {
-    max-width: 100%;
+    width: 100%;
 }
 .response-page #response article {
     text-align: center;
@@ -840,6 +842,6 @@ body {
     background: #222;
     color: #fff;
 }
-.display-div{
+.display-div {
     display: none;
 }

@@ -1,6 +1,8 @@
-<?php $title = 'DoveLoButto'; require('./partials/head.php'); ?>
-
-<div class="response-page plastic display-div" id="result-page">
+<?php 
+  $title = 'DoveLoButto'; require('./partials/head.php'); 
+?>
+<div class="display-div">
+<div class="response-page plastic" id="result-page">
   <div class="navbar">
     <?php require('./partials/header.php'); ?>
     <form action="/result.php" method="get" class="search-bar">
@@ -11,7 +13,7 @@
 
   <div id="response" class="lets-move pop-up-2s">
     <figure>
-      <img src="/assets/images/bin-plastic.png" alt="Ricicla come plastica">
+      <img src="/assets/images/bin-plastic.png" alt="Ricicla come plastica" class="svg-trash">
     </figure>
     <article>
       <h4>Ricicla come</h4>
@@ -19,7 +21,7 @@
     </article>
   </div>
 </div>
-
+</div>
 <div class="homepage" id="home-page">
   <div class="navbar">
     <?php require('./partials/header.php'); ?>
@@ -61,7 +63,7 @@
            url: $(this).attr("action"),
            data: $(this).serialize(),
            success: function(data){
-
+             console.log(data.oggetto);
            }
         });
       });
