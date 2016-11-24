@@ -10,12 +10,12 @@ $dataBin = array
       array("libro","carta"),
       array("cartone","carta")
 	);
+$colorBin="errore";
 for($i=0;$i<7;$i++){
 	if($_GET['object']==$dataBin[$i][0]){
 		$colorBin=$dataBin[$i][1];
 	}
 }
-
 
 $data = [
    'oggetto' => $_GET['object'],
