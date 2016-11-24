@@ -19,7 +19,7 @@ for($i=0;$i<7;$i++){
 
 $data = [
    'oggetto' => $_GET['object'],
-   'colore' => $colorBin
+   'bidone' => $colorBin
 ];
 
 echo json_encode($data);

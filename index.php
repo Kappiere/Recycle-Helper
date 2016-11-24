@@ -13,7 +13,7 @@
 
   <div id="response" class="lets-move pop-up-2s">
     <figure>
-      <img src="/assets/images/bin-plastic.png" alt="Ricicla come plastica" class="svg-trash">
+      <img id="bin-image" src="/assets/images/bin-plastic.png" alt="Ricicla come plastica" class="svg-trash">
     </figure>
     <article>
       <h4>Ricicla <span class="return-object"> </span> come</h4>
@@ -64,9 +64,12 @@
            data: $(this).serialize(),
            success: function(data){
              console.log(data.oggetto);
-             $('.return-object').text(data.oggetto);
-             $('.return-bin').text(data.colore);
              console.log(data.colore);
+             $('.return-object').text(data.oggetto);
+             $('.return-bin').text(data.bidone);
+             if (data.bidone=="organico"){
+               document.getElementById("bin-image").src"/assets/images/bin-organic.png";
+             }
            }
         });
       });
