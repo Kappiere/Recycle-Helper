@@ -845,3 +845,9 @@ body {
 .display-div {
     display: none;
 }
+.return-object{
+    font-weight: bold;    
+}
+.return-bin{
+    font-weight: bold;    
+}

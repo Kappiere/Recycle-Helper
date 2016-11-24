@@ -16,8 +16,8 @@
       <img src="/assets/images/bin-plastic.png" alt="Ricicla come plastica" class="svg-trash">
     </figure>
     <article>
-      <h4>Ricicla come</h4>
-      <h2>PLASTICA</h2>
+      <h4>Ricicla <span class="return-object"> </span> come</h4>
+      <h2><span class="return-bin"> </span></h2>
     </article>
   </div>
 </div>
@@ -64,6 +64,9 @@
            data: $(this).serialize(),
            success: function(data){
              console.log(data.oggetto);
+             $('.return-object').text(data.oggetto);
+             $('.return-bin').text(data.colore);
+             console.log(data.colore);
            }
         });
       });
