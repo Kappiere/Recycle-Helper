@@ -94,8 +94,8 @@
       <h2><span class="return-bin"> </span></h2>
     </article>
     <article>
-      <h4></h4>
-      <h2 id="print-error"></h2>
+      <h4 id="print-error"></h4>
+      <h2></h2>
     </article>
 
   </div>
